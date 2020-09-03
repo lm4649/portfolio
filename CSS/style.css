@@ -171,17 +171,15 @@ ul, ol{
   background: #d82c2e;
 }
 
-/*---------------------EXPERIENCE-------------------*/
-
-#experience{
+/*---------------------PORTFOLIO-------------------*/
+#portfolio{
   background: #d82c2e;
-
 }
 
-#experience .heading h2{
-  color : white;
-  padding-top: 15px;
+#portfolio .heading h2{
+  color: #fff;padding-top: 15px;
 }
+
 
 .timeline{
   padding: 30px 10px;
@@ -249,6 +247,29 @@ ul, ol{
   position: relative;
   box-shadow : 0 1px 6px rgba(0,0,0,0.175);
   background: #fff;
+}
+
+.timeline-heading h3 {
+  color: #FFF;
+  text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
+
+.timeline-heading h4 {
+  text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
+
+.timeline-heading p {
+  text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
+
+.timeline-body p {
+  text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+  opacity: 0;
+  transition: 0.5s ease-in;
+}
+
+.timeline-body p:hover {
+  opacity: 1;
 }
 
 .timeline-panel-container-inverted .timeline-panel{
@@ -333,17 +354,20 @@ ul, ol{
   margin-bottom: 20px;
 }
 
-/*---------------------PORTFOLIO-------------------*/
+/*---------------------EXPERIENCE-------------------*/
 
-#portfolio{
+#experience{
   background: #d82c2e;
+
 }
 
-#portfolio .heading h2{
-  color: #fff;padding-top: 15px;
+#experience .heading h2{
+  color : white;
+  padding-top: 15px;
 }
 
-#portfolio .img-thumbnail img{
+
+/*#portfolio .img-thumbnail img{
   width: 100%
   height: 100%
   filter: grayscale(100%);
@@ -354,7 +378,7 @@ ul, ol{
 #portfolio .img-thumbnail img:hover{
   filter: none;
   -webkit-filter: none;
-}
+}*/
 
 /*------------------RECOMMANDATIONS-----------------*/
 
@@ -417,4 +441,10 @@ footer .fa:hover{
 footer h5{
   color:#fff;
   font-weight:normal;
+}
+
+.contact-me a {
+  color:#fff;
+  font-size: 40px;
+  padding: 4px 8px;
 }
