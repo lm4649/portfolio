@@ -1,4 +1,30 @@
 /*---------------------ABOUT------------------------*/
+#about {
+  padding-top: 150;
+  background: #d82c2e;
+}
+
+.profile-picture{
+  text-align: center;
+  margin : 0;
+  float: none;
+}
+
+.red-divider{
+  width: 100px;
+  height: 2px;
+  background: #d82c2e;
+  margin : 0 auto;
+}
+
+.white-divider{
+  width: 100px;
+  height: 2px;
+  background: #fff;
+  margin : 0 auto;
+}
+
+
 #about .heading h1{
   color: #fff;
   text-transform: uppercase;
