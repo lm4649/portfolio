@@ -1,0 +1,52 @@
+/*---------------------ABOUT------------------------*/
+#about .heading h1{
+  color: #fff;
+  text-transform: uppercase;
+
+}
+
+#about .heading h3{
+  color : #000;
+}
+
+#about p {
+  max-width: 780px;
+  margin: 16px auto;
+  color: white;
+  font-size: 20px;
+}
+
+#about p strong {
+  border-bottom: solid 1px white;
+}
+
+#portrait {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  filter: grayscale(100%);
+  transition: 0.5s ease-in;
+}
+
+#portrait:hover{
+  filter: none;
+}
+
+.button1{
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white;
+  border : 1px solid white;
+  display: inline-block;
+  margin-top : 20px;
+  padding :  18px 50px;
+  border-radius: 3px;
+  transition : all 0.3s ease-in 0s;
+
+}
+
+.button1:hover{
+  background: #fff;
+  color: #d82c2e;
+  text-decoration: none;
+}

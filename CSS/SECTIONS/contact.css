@@ -1,0 +1,35 @@
+/*------------------CONTACT-----------------*/
+
+footer{
+  background: #333;
+  padding : 20px 0 40px;
+}
+
+footer .fa{
+  font-size: 25px;
+  margin : 20px;
+  color : #d82c2e;
+  height : 30px;
+}
+
+footer .fa:hover{
+  font-size: 30px;
+}
+
+footer h5{
+  color:#fff;
+  font-weight:normal;
+}
+
+.contact-me a {
+  color:#fff;
+  font-size: 40px;
+  padding: 4px 8px;
+  opacity: 0.7;
+  transition: 0.5s ease-in;
+}
+
+.contact-me a:hover {
+  opacity: 1;
+}
+
