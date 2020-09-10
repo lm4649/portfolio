@@ -1,0 +1,37 @@
+/*---------------------MENU------------------------*/
+
+.navbar {
+  background: #d82c2e;
+  font-size: 12px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+
+.navbar .navbar-nav{
+  /*display: inline-block;
+  float : none;
+  vertical-align: top;*/
+}
+
+.navbar-collapse{
+  text-align: center;
+}
+
+.navbar li a{
+  color:#fff;
+}
+
+.navbar-nav li a:hover,.navbar-nav li.active{
+  color:#d82c2e !important;
+  background-color: white !important;
+}
+
+.navbar-expand-lg, .navbar-toggle{
+  border-style: none;
+}
+
+.navbar-toggler-icon{
+  /*background-color: rgba(255,255,255,0.5) !important;*/
+}
