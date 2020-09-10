@@ -65,6 +65,9 @@
 }
 
 .timeline-panel{
+  position: relative;
+  width: 500px;
+  height: 300px;
   widows: 90%;
   float: right;
   margin-right: 40px;
@@ -89,10 +92,20 @@
   text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
 }
 
+
+.timeline-body {
+  position: absolute;
+  width: 100%;
+  bottom: 8px;
+}
+
 .timeline-body p {
   text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
   opacity: 0;
   transition: 0.5s ease-in;
+  width: 448px;
+  height: 90px;
+  padding-left: 4px;
 }
 
 .timeline-body p:hover {
