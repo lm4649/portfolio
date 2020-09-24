@@ -59,6 +59,7 @@
 
 #about p strong {
   border-bottom: solid 1px white;
+  font-size: 20px;
 }
 
 #portrait {
@@ -95,6 +96,10 @@
 
 @media (max-width: 728px) {
   #about p{
+    font-size: 14px;
+  }
+
+  #about p strong{
     font-size: 14px;
   }
 
