@@ -47,7 +47,8 @@
 
 @media (max-width: 1223px) {
   .timeline li .timeline-badge{
-  font-size: 0;
+  /*font-size: 0;*/
+  display:none;
   }
 
   .timeline-panel{
@@ -109,7 +110,8 @@
 /*--------------------smartphones resolution-------------------*/
 @media (max-width: 600px) {
   .timeline li .timeline-badge{
-  font-size: 0;
+  /*font-size: 0;*/
+  display:none;
   }
 
   .timeline-panel{

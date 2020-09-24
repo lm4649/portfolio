@@ -22,12 +22,12 @@
     <meta name="keywords" content="Ruby, Rails, Bootstrap, JavaScript, React, SQL, Web app, Games, Le Wagon, Tokyo, Japan">
     <meta name="author" content="Marc LOPES">
 
-
     <title>Marc Lopes Web Developer</title>
-    <!-- CSS and Bootstrap and Font Awesome-->
+    <!-- CSS, Bootstrap and Font Awesome-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
     <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <!-- Font Lato -->
     <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
     <!-- favicon -->
@@ -120,7 +120,7 @@
         <ul class="timeline">
           <li>
             <div class="timeline-badge"><span class="fas fa-video"></span></div>
-            <div class="timeline-panel-container-inverted">
+            <div class="timeline-panel-container-inverted" data-aos="fade-left">
               <div class="timeline-panel" style="background-image: url('IMG/flixer.jpg'); background-size: cover;">
                 <div class="timeline-heading">
                   <h3>FLIXER</h3>
@@ -143,7 +143,7 @@
 
           <li>
             <div class="timeline-badge"><span class="fas fa-hand-holding-heart"></span></div>
-            <div class="timeline-panel-container">
+            <div class="timeline-panel-container" data-aos="fade-right">
               <div class="timeline-panel" style="background-image: url('IMG/greeter.jpg'); background-size: cover;">
                 <div class="timeline-heading">
                   <h3>GREETER</h3>
@@ -169,7 +169,7 @@
 
           <li>
             <div class="timeline-badge"><span class="fas fa-bread-slice"></span></div>
-            <div class="timeline-panel-container-inverted">
+            <div class="timeline-panel-container-inverted" data-aos="fade-left">
               <div class="timeline-panel" style="background-image: url('IMG/baking-bad.png'); background-size: cover;">
                 <div class="timeline-heading">
                   <h3>BAKING BAD</h3>
@@ -193,7 +193,7 @@
 
           <li>
             <div class="timeline-badge"><span class="fas fa-compact-disc"></span></div>
-            <div class="timeline-panel-container">
+            <div class="timeline-panel-container" data-aos="fade-right">
               <div class="timeline-panel" style="background-image: url('IMG/bass-guitars.png'); background-size: cover;">
                 <div class="timeline-heading">
                   <h3>ALL ABOUT THAT BASS</h3>
@@ -216,7 +216,7 @@
 
           <li>
             <div class="timeline-badge"><span class="fas fa-cocktail"></span></div>
-            <div class="timeline-panel-container-inverted">
+            <div class="timeline-panel-container-inverted" data-aos="fade-left">
               <div class="timeline-panel" style="background-image: url('IMG/cocktails.png'); background-size: cover;">
                 <div class="timeline-heading">
                   <h3>MISTER COCKTAIL</h3>
@@ -282,5 +282,14 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
     <script src="JS/script.js"></script>
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        disable: function() {
+          return window.innerWidth < 1224;
+        }
+      });
+</script>
   </body>
 </html>
