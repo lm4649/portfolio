@@ -6,24 +6,25 @@ footer{
 }
 
 footer .fa{
-  font-size: 25px;
+  font-size: 25px !important;
   margin : 20px;
   color : #d82c2e;
   height : 30px;
 }
 
 footer .fa:hover{
-  font-size: 30px;
+  font-size: 30px !important;
 }
 
 footer h5{
   color:#fff;
   font-weight:normal;
+  font-size: 1.5rem;
 }
 
 .contact-me a {
   color:#fff;
-  font-size: 40px;
+  font-size: 40px !important;
   padding: 4px 8px;
   opacity: 0.7;
   transition: 0.5s ease-in;
@@ -33,3 +34,6 @@ footer h5{
   opacity: 1;
 }
 
+.contact-me a i {
+  font-size: 34px;
+}
