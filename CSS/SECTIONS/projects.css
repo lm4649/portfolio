@@ -37,9 +37,9 @@
   left: -1%;
 }
 
-.timeline-body p:hover {
+.timeline-panel:hover .timeline-body > p {
   opacity: 1;
-  background-color: rgba(0,0,0,0.3);
+  background-color: rgba(0,0,0,0.6);
   border-radius: 4px;
 }
 
