@@ -11,9 +11,16 @@
   float: none;
 }
 
-.profile-picture > i {
+.profile-picture i {
   font-size: 3rem;
   animation: floating 1s ease-in-out infinite alternate;
+  color : #212529;
+  transition: color, 0.5s;
+}
+
+.profile-picture i:hover {
+  color:#fff;
+  text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
 }
 
 @keyframes floating {
